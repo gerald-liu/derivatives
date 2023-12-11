@@ -1,0 +1,14 @@
+Closed-form solution:
+       Price     Delta     Gamma      Vega
+0  0.027886  0.150535 -0.649996 -0.029901
+1  0.031630 -0.138186 -0.921187 -0.043529
+
+Monte-Carlo solution (price only):
+       Price
+0  0.027955
+1  0.031707
+
+Error between MC & CF results (bp):
+       Price
+0  0.686958
+1  0.776310
